@@ -1,0 +1,137 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ html,body{
+width: 100%;
+height: 100%;
+font-family: 'Arial', sans-serif;
+background-color: #f7f8fa;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+}
+  
+  .form-container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .form-group label {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    font-size: 0.9rem;
+    color: #007acc;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: #007acc;
+    background-color: #fff;
+  }
+  
+  .form-group input:focus + label,
+  .form-group select:focus + label,
+  .form-group textarea:focus + label {
+    top: -20px;
+    font-size: 0.8rem;
+    color: #007acc;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .submit-btn:active {
+    background-color: #1e7e34;
+    transform: scale(1);
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .checkbox-group input {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .checkbox-group label {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .checkbox-group a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  .checkbox-group a:hover {
+    text-decoration: underline;
+  }
+
+    
